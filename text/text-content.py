@@ -1,7 +1,7 @@
 import requests
 import os
 
-urls = ['https://www.gutenberg.org/cache/epub/50373/pg50373.txt']
+urls = ['https://www.gutenberg.org/cache/epub/50373/pg50373.txt','https://www.gutenberg.org/cache/epub/52684/pg52684.txt',]
 
 os.makedirs("text", exist_ok=True)  # Create the directory if it doesn't exist
 
